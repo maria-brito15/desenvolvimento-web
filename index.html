@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proposta de Criação de Site</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="inicio">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent pt-4">
+        <div class="container">
+          <a class="navbar-brand fw-semibold fs-6" href="#">
+            <i class="bi bi-code-square me-2"></i>duda.dev
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#opcoes-servico">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#processo-desenvolvimento"
+                  >Processo</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#perguntas-frequentes">FAQ</a>
+              </li>
+
+              <li class="nav-item d-none d-lg-block mx-2 text-white-50">|</li>
+
+              <li class="nav-item d-flex gap-3 mt-3 mt-lg-0 ms-lg-2">
+                <a
+                  href="https://github.com/maria-brito15"
+                  target="_blank"
+                  class="social-link"
+                  title="GitHub"
+                >
+                  <i class="bi bi-github"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/maria-eduarda-p-brito-a18064358"
+                  target="_blank"
+                  class="social-link"
+                  title="LinkedIn"
+                >
+                  <i class="bi bi-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container hero-content">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 text-center">
+            <h1>Transformando Ideias em<br />Experiências Digitais</h1>
+            <p class="mb-5 mx-auto" style="max-width: 700px">
+              Desenvolvimento Web focado em performance, design e resultados.
+              Vamos construir a presença online do seu negócio juntos?
+            </p>
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+              <a
+                href="#contact-form"
+                class="btn btn-light rounded-pill px-4 py-2 fw-bold"
+              >
+                Solicitar Proposta
+              </a>
+              <a
+                href="#opcoes-servico"
+                class="btn btn-outline-light rounded-pill px-4 py-2"
+              >
+                Ver Planos
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="sobre" class="bg-light">
+        <div class="container">
+          <h2 class="section-title">Olá, eu sou a Duda!</h2>
+          <div class="row align-items-center">
+            <div class="col-lg-8 mx-auto">
+              <div class="about-content text-center">
+                <div class="about-icon mb-4">
+                  <i
+                    class="bi bi-code-slash"
+                    style="font-size: 3rem; color: #000000"
+                  ></i>
+                </div>
+                <p
+                  style="
+                    font-size: 1.15rem;
+                    color: #555;
+                    line-height: 1.8;
+                    margin-bottom: 1.5rem;
+                  "
+                >
+                  Sou estudante de <strong>Ciência da Computação</strong> e
+                  apaixonada por criar experiências digitais que fazem a
+                  diferença. Combino conhecimento técnico com criatividade para
+                  desenvolver sites que não são apenas bonitos, mas que
+                  realmente funcionam e geram resultados.
+                </p>
+                <p
+                  style="
+                    font-size: 1.1rem;
+                    color: #666;
+                    line-height: 1.8;
+                    margin-bottom: 1.5rem;
+                  "
+                >
+                  Meu foco é entregar soluções web modernas, rápidas e
+                  profissionais, sempre utilizando as melhores práticas e
+                  tecnologias do mercado. Cada projeto é uma oportunidade de
+                  transformar ideias em realidade digital.
+                </p>
+                <div class="about-badges mt-4">
+                  <span class="badge-custom">HTML5 & CSS3</span>
+                  <span class="badge-custom">JavaScript</span>
+                  <span class="badge-custom">Bootstrap</span>
+                  <span class="badge-custom">React</span>
+                  <span class="badge-custom">Java</span>
+                  <span class="badge-custom">SpringBoot</span>
+                  <span class="badge-custom">PHP</span>
+                  <span class="badge-custom">PostgreSQL</span>
+                  <span class="badge-custom">SEO</span>
+                  <span class="badge-custom">Performance</span>
+                  <span class="badge-custom">Responsividade</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="visao-geral">
+        <div class="container">
+          <h2 class="section-title">Visão Geral</h2>
+          <p
+            class="text-center col-lg-8 mx-auto"
+            style="font-size: 1.1rem; color: #666"
+          >
+            Desenvolvo sites modernos e profissionais que carregam rápido,
+            funcionam perfeitamente em qualquer dispositivo e geram resultados
+            mensuráveis para o seu negócio. Trabalho com as melhores tecnologias
+            do mercado para garantir qualidade e durabilidade.
+          </p>
+        </div>
+      </section>
+
+      <section id="opcoes-servico">
+        <div class="container">
+          <h2 class="section-title">Opções de Serviço</h2>
+          <p class="section-subtitle">
+            Duas soluções distintas, escolhidas de acordo com as necessidades de
+            atualização e gerenciamento de conteúdo.
+          </p>
+
+          <div class="row">
+            <div class="col-lg-6 mb-4">
+              <div class="card-service">
+                <h3>Site Estático</h3>
+                <p class="subtitle">Conteúdo fixo, atualizações sob demanda.</p>
+
+                <h5 class="mt-4 mb-3">Ideal para:</h5>
+                <div>
+                  <span class="badge-custom">Landing Pages</span>
+                  <span class="badge-custom">Sites Institucionais</span>
+                  <span class="badge-custom">Portfólios Profissionais</span>
+                  <span class="badge-custom">Páginas Promocionais</span>
+                </div>
+
+                <h5 class="mt-4 mb-3">Benefícios:</h5>
+                <div class="benefit-item d-flex align-items-center">
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Performance otimizada e carregamento instantâneo.</span>
+                </div>
+                <div class="benefit-item d-flex align-items-center">
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Manutenção simplificada e custo reduzido.</span>
+                </div>
+                <div class="benefit-item d-flex align-items-center">
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Design responsivo para todos os dispositivos.</span>
+                </div>
+                <div class="benefit-item d-flex align-items-center">
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Segurança avançada.</span>
+                </div>
+
+                <div class="price-box">
+                  <div
+                    class="d-flex flex-column justify-content-between align-items-center mb-2"
+                  >
+                    <span>Desenvolvimento</span>
+                    <span class="price">R$ 350,00 - 700,00</span>
+                  </div>
+                  <div
+                    class="d-flex flex-column justify-content-between align-items-center"
+                  >
+                    <span>Suporte</span>
+                    <span class="price">R$ 50 / mês</span>
+                  </div>
+                  <hr
+                    style="
+                      border-color: rgba(255, 255, 255, 0.3);
+                      margin: 1rem 0;
+                    "
+                  />
+                  <p class="period mb-0">
+                    <small
+                      >Inclui hospedagem gerenciada, monitoramento de
+                      disponibilidade, segurança SSL e suporte mensal para
+                      atualizações pontuais de conteúdo (textos e
+                      imagens).</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 mb-4">
+              <div class="card-service">
+                <h3>Site Dinâmico</h3>
+                <p class="subtitle">
+                  Gestão de conteúdo autônoma e funcionalidades avançadas.
+                </p>
+
+                <h5 class="mt-4 mb-3">Ideal para:</h5>
+                <div>
+                  <span class="badge-custom">Áreas de Login</span>
+                  <span class="badge-custom">E-Commerce</span>
+                  <span class="badge-custom">Blogs com CMS</span>
+                  <span class="badge-custom">Sistemas de Cadastro</span>
+                  <span class="badge-custom">Plataformas de Dados</span>
+                  <span class="badge-custom">Conteúdo Atualizado</span>
+                </div>
+
+                <h5 class="mt-4 mb-3">Benefícios:</h5>
+                <div class="benefit-item d-flex align-items-center">
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Autonomia total para atualizações de conteúdo.</span>
+                </div>
+                <div class="benefit-item d-flex align-items-center">
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Banco de dados integrado para armazenamento.</span>
+                </div>
+                <div class="benefit-item d-flex align-items-center">
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Painel administrativo intuitivo.</span>
+                </div>
+                <div class="benefit-item d-flex align-items-center">
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Escalabilidade e funcionalidades customizáveis.</span>
+                </div>
+
+                <div class="price-box">
+                  <div
+                    class="d-flex flex-column justify-content-between align-items-center mb-2"
+                  >
+                    <span>Desenvolvimento</span>
+                    <span class="price">A partir de R$ 1.200,00 </span>
+                  </div>
+                  <div
+                    class="d-flex flex-column justify-content-between align-items-center"
+                  >
+                    <span>Suporte</span>
+                    <span class="price">R$ 160,00 / mês</span>
+                  </div>
+                  <hr
+                    style="
+                      border-color: rgba(255, 255, 255, 0.3);
+                      margin: 1rem 0;
+                    "
+                  />
+                  <p class="period mb-0">
+                    <small
+                      >Inclui hospedagem profissional, banco de dados, backups
+                      automáticos e suporte prioritário.</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="hospedagem">
+        <div class="container">
+          <h2 class="section-title">Custos de Hospedagem</h2>
+
+          <div class="row mt-5 mb-5">
+            <div class="col-lg-6 mb-4">
+              <div class="hosting-card card-service">
+                <div class="hosting-card-header">
+                  <h3 class="fw-semibold">Site Estático</h3>
+                </div>
+                <div class="hosting-card-body">
+                  <p class="mb-3">
+                    <span class="fw-semibold">Plataforma:</span> Netlify
+                  </p>
+                  <div class="hosting-price mb-3">
+                    <span class="price-large fw-bold">Gratuito</span>
+                    <span class="price-subtitle">Plano Free</span>
+                  </div>
+                  <p class="mb-3">
+                    O Netlify oferece hospedagem gratuita para sites estáticos
+                    com recursos generosos:
+                  </p>
+                  <ul class="hosting-features">
+                    <li>
+                      <i class="bi bi-check-circle-fill me-1"></i> 100 GB de
+                      largura de banda/mês.
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill me-1"></i> Deploy
+                      automático via Git.
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill me-1"></i> SSL (HTTPS)
+                      gratuito incluído.
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill me-1"></i> CDN global
+                      para carregamento rápido.
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill me-1"></i> Domínio
+                      personalizado gratuito (.netlify.app)
+                    </li>
+                  </ul>
+                  <p class="text-muted mt-3">
+                    <small
+                      >Ideal para landing pages, portfólios e sites
+                      institucionais sem necessidade de backend.</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 mb-4">
+              <div class="hosting-card card-service">
+                <div class="hosting-card-header">
+                  <h3 class="fw-semibold">Site Dinâmico</h3>
+                </div>
+                <div class="hosting-card-body">
+                  <p class="mb-3">
+                    <span class="fw-semibold">Plataforma:</span> Render.com
+                  </p>
+                  <div class="hosting-price mb-3">
+                    <span class="price-large fw-bold">~R$ 100</span>
+                    <span class="price-subtitle">por mês</span>
+                  </div>
+                  <p class="mb-3">
+                    Para sites com backend e banco de dados, o Render oferece
+                    infraestrutura profissional:
+                  </p>
+                  <ul class="hosting-features">
+                    <li>
+                      <i class="bi bi-check-circle-fill me-1"></i> Backend com
+                      512 MB RAM e 0,5 CPU.
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill me-1"></i> Banco de
+                      dados PostgreSQL incluído.
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill me-1"></i> 15 GB de
+                      armazenamento para dados.
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill me-1"></i> Backups
+                      automáticos diários.
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill me-1"></i> SSL e
+                      segurança avançada.
+                    </li>
+                  </ul>
+                  <p class="text-muted mt-3">
+                    <small
+                      >Necessário para e-commerce, sistemas de login, blogs com
+                      CMS e plataformas com dados dinâmicos.</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hosting-explanation bg-light p-4 rounded mb-5">
+            <h4 class="mb-3">
+              <i class="bi bi-info-circle me-2"></i>Entenda a Diferença
+            </h4>
+            <p>
+              <strong>Site Estático (Netlify):</strong> É como um panfleto
+              digital - o conteúdo é fixo e não muda sozinho. Perfeito quando
+              você não precisa de área de login, carrinho de compras ou
+              atualização frequente de conteúdo. Por isso pode ser gratuito,
+              pois consome poucos recursos do servidor.
+            </p>
+            <p class="mb-0">
+              <strong>Site Dinâmico (Render):</strong> É como um sistema
+              completo - tem servidor trabalhando nos bastidores processando
+              informações, banco de dados armazenando conteúdo, e pode ter
+              funcionalidades complexas como área de membros, e-commerce, ou
+              painéis administrativos. Requer mais recursos, por isso tem custo
+              mensal.
+            </p>
+          </div>
+
+          <h3 class="text-center mb-4">
+            Detalhamento de Custos - Site Dinâmico
+          </h3>
+          <p class="text-center col-lg-8 mx-auto mb-4" style="color: #666">
+            Breakdown completo dos custos mensais da hospedagem no Render:
+          </p>
+
+          <div class="table-responsive col-lg-10 mx-auto">
+            <table class="table table-bordered hosting-table">
+              <thead>
+                <tr>
+                  <th>Recurso</th>
+                  <th>Plano / Configuração</th>
+                  <th>Custo (USD)</th>
+                  <th>Custo (BRL)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Backend</strong></td>
+                  <td>Starter: 512 MB RAM, 0,5 CPU</td>
+                  <td>7</td>
+                  <td>37</td>
+                </tr>
+                <tr>
+                  <td><strong>Banco de Dados</strong></td>
+                  <td>Plano inicial</td>
+                  <td>6</td>
+                  <td>32</td>
+                </tr>
+                <tr>
+                  <td><strong>Armazenamento DB</strong></td>
+                  <td>15 GB</td>
+                  <td>4,5</td>
+                  <td>24</td>
+                </tr>
+                <tr class="table-dark">
+                  <td><strong>Total Mensal</strong></td>
+                  <td>—</td>
+                  <td><strong>17,5</strong></td>
+                  <td><strong>93-100</strong></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="config-dominio" class="bg-light">
+        <div class="container">
+          <h2 class="section-title">Domínio</h2>
+
+          <div class="row mt-5">
+            <div class="col-lg-6">
+              <div class="domain-box">
+                <h4 class="fw-bold mb-3">Subdomínio Gratuito</h4>
+                <div class="domain-url">seunegocio.netlify.app</div>
+                <div class="benefit-item d-flex align-items-center">
+                  <i class="bi bi-check2-circle"></i>
+                  <span>Funcional e sem custos.</span>
+                </div>
+                <div class="benefit-item d-flex align-items-center">
+                  <i class="bi bi-check2-circle"></i>
+                  <span>Configuração incluída.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div
+                class="domain-box"
+                style="
+                  border-color: #000000;
+                  background: linear-gradient(
+                    135deg,
+                    rgba(0, 0, 0, 0.05) 0%,
+                    rgba(45, 45, 45, 0.05) 100%
+                  );
+                "
+              >
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <h4 class="fw-bold mb-0">Domínio Personalizado</h4>
+                  <span class="badge bg-dark">Recomendado</span>
+                </div>
+                <div class="domain-url">www.seunegocio.com.br</div>
+                <div class="benefit-item d-flex align-items-center">
+                  <i class="bi bi-check2-circle"></i>
+                  <span>Identidade profissional.</span>
+                </div>
+                <div class="benefit-item d-flex align-items-center">
+                  <i class="bi bi-check2-circle"></i>
+                  <span>Credibilidade elevada.</span>
+                </div>
+                <div class="benefit-item d-flex align-items-center">
+                  <i class="bi bi-check2-circle"></i>
+                  <span>R$ 40-60 anuais.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pacote-geral">
+        <div class="container">
+          <h2 class="section-title">Incluído em Todos os Projetos</h2>
+
+          <div class="row mt-5">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="feature-card">
+                <i class="bi bi-phone"></i>
+                <h4>Design Responsivo</h4>
+                <p>Experiência otimizada em todos os dispositivos.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="feature-card">
+                <i class="bi bi-search"></i>
+                <h4>SEO Otimizado</h4>
+                <p>Estrutura otimizada para buscadores.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="feature-card">
+                <i class="bi bi-speedometer2"></i>
+                <h4>Performance</h4>
+                <p>Carregamento otimizado e rápido.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="feature-card">
+                <i class="bi bi-shield-check"></i>
+                <h4>Segurança SSL</h4>
+                <p>Certificado de segurança incluído.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="feature-card">
+                <i class="bi bi-rocket-takeoff"></i>
+                <h4>Deploy Profissional</h4>
+                <p>Publicação e configuração completa.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="feature-card">
+                <i class="bi bi-headset"></i>
+                <h4>Suporte Inicial</h4>
+                <p>Acompanhamento nas 8 primeiras semanas (2 meses).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="processo-desenvolvimento" class="bg-light">
+        <div class="container">
+          <h2 class="section-title">Processo de Desenvolvimento</h2>
+
+          <div class="timeline-container mt-5">
+            <div class="timeline-line"></div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot">1</div>
+              <div class="timeline-content">
+                <h5>Planejamento</h5>
+                <span class="timeline-duration">1-2 dias</span>
+                <p>
+                  Análise de requisitos, definição de objetivos e estruturação
+                  do projeto.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot">2</div>
+              <div class="timeline-content">
+                <h5>Desenvolvimento</h5>
+                <span class="timeline-duration">7-15 dias</span>
+                <p>
+                  Implementação técnica, design e funcionalidades com
+                  acompanhamento contínuo.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot">3</div>
+              <div class="timeline-content">
+                <h5>Revisão</h5>
+                <span class="timeline-duration">2-3 dias</span>
+                <p>Testes completos e até três rodadas de ajustes incluídas.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot">4</div>
+              <div class="timeline-content">
+                <h5>Publicação</h5>
+                <span class="timeline-duration">1 dia</span>
+                <p>Deploy, configuração de domínio e validação final.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot">5</div>
+              <div class="timeline-content">
+                <h5>Treinamento</h5>
+                <span class="timeline-duration">Opcional</span>
+                <p>
+                  Capacitação para uso do painel administrativo (sites
+                  dinâmicos).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="perguntas-frequentes">
+        <div class="container">
+          <h2 class="section-title">Perguntas Frequentes</h2>
+
+          <div class="col-lg-8 mx-auto mt-5">
+            <div class="faq-item">
+              <div class="faq-question">
+                <span>Como funciona a atualização de conteúdo?</span>
+                <i class="bi bi-chevron-down"></i>
+              </div>
+              <div class="faq-answer">
+                Para sites estáticos, as atualizações são feitas sob demanda
+                através de solicitação ao desenvolvedor. Para sites dinâmicos,
+                você terá acesso a um painel administrativo intuitivo onde
+                poderá fazer alterações de forma autônoma.
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-question">
+                <span>Qual o prazo de entrega?</span>
+                <i class="bi bi-chevron-down"></i>
+              </div>
+              <div class="faq-answer">
+                O prazo total varia entre 11 e 21 dias úteis, dependendo da
+                complexidade do projeto. Isso inclui todas as etapas:
+                planejamento, desenvolvimento, revisão e publicação.
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-question">
+                <span
+                  >É possível adicionar funcionalidades posteriormente?</span
+                >
+                <i class="bi bi-chevron-down"></i>
+              </div>
+              <div class="faq-answer">
+                Sim! Os sites são desenvolvidos com escalabilidade em mente.
+                Funcionalidades adicionais podem ser implementadas conforme a
+                necessidade do seu negócio evolui.
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-question">
+                <span>O site será otimizado para buscadores?</span>
+                <i class="bi bi-chevron-down"></i>
+              </div>
+              <div class="faq-answer">
+                Sim! Todos os sites são desenvolvidos com estrutura otimizada
+                para SEO, incluindo meta tags adequadas, URLs amigáveis, sitemap
+                e performance otimizada - fatores essenciais para melhor
+                ranqueamento nos buscadores.
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-question">
+                <span>Preciso ter conhecimento técnico?</span>
+                <i class="bi bi-chevron-down"></i>
+              </div>
+              <div class="faq-answer">
+                Não! Para sites estáticos, você não precisa se preocupar com
+                aspectos técnicos. Para sites dinâmicos, oferecemos treinamento
+                opcional para uso do painel administrativo, que é intuitivo e
+                não requer conhecimento técnico.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <form
+                action="https://formspree.io/f/mrbdwroq"
+                method="POST"
+                class="contact-form"
+                id="contact-form"
+              >
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <label class="form-label text-dark fw-semibold">
+                      <i class="bi bi-person me-1"></i>Nome *
+                    </label>
+                    <input
+                      type="text"
+                      class="form-control form-control-lg"
+                      name="name"
+                      placeholder="João Silva"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label class="form-label text-dark fw-semibold">
+                      <i class="bi bi-envelope me-1"></i>E-Mail *
+                    </label>
+                    <input
+                      type="email"
+                      class="form-control form-control-lg"
+                      name="email"
+                      placeholder="joao@empresa.com"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-12 mb-3">
+                    <label class="form-label text-dark fw-semibold">
+                      <i class="bi bi-laptop me-1"></i>Tipo de Site *
+                    </label>
+                    <select
+                      class="form-select form-select-lg"
+                      name="service"
+                      required
+                    >
+                      <option value="">Selecione uma opção</option>
+                      <option value="estatico">Site Estático</option>
+                      <option value="dinamico">Site Dinâmico</option>
+                      <option value="nao-sei">
+                        Preciso de Ajuda para Decidir
+                      </option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="mb-4">
+                  <label class="form-label text-dark fw-semibold">
+                    <i class="bi bi-chat-dots me-1"></i>Conte-nos sobre seu
+                    projeto *
+                  </label>
+                  <textarea
+                    class="form-control form-control-lg"
+                    name="message"
+                    rows="5"
+                    placeholder="Descreva brevemente: objetivo do site, público-alvo, funcionalidades desejadas, prazo esperado..."
+                    required
+                  ></textarea>
+                  <small class="text-muted">
+                    Quanto mais detalhes, melhor será nossa proposta!
+                  </small>
+                </div>
+
+                <input type="text" name="_honeypot" style="display: none" />
+                <button
+                  type="submit"
+                  class="border border-2 btn btn-custom w-100 py-3"
+                >
+                  <i class="bi bi-send-fill me-2"></i>Solicitar Proposta
+                </button>
+
+                <div id="form-status" class="mt-3"></div>
+
+                <p
+                  class="text-center mt-3 mb-0"
+                  style="font-size: 0.85rem; color: #665"
+                >
+                  <i class="bi bi-shield-check me-1"></i>
+                  Seus dados estão seguros e não serão compartilhados.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-transparent text-center py-4">
+      <div class="container">
+        <p class="mb-0 fw-semibold">
+          &copy; 2025 Maria Eduarda P. Brito | Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
