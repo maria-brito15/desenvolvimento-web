@@ -664,7 +664,7 @@ body.dark-mode .form-label {
 }
 
 body.dark-mode ::placeholder {
-  color: #999999 !important;
+  color: #ffffff !important;
   opacity: 1 !important;
 }
 body.dark-mode :-ms-input-placeholder {
@@ -702,4 +702,9 @@ body.dark-mode .table-dark td {
 
 body.dark-mode .hosting-table-hover > tbody > tr:hover {
   background-color: #2d2d2d !important;
+}
+
+.contact-form ::placeholder {
+  font-size: 1rem;
+  color: #000000 !important;
 }
